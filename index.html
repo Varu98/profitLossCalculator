@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stock Profit And Loss Calculator</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>💰 Check Wether Your Stock Market Value Was Profitable Or Not 💰</h1>
+    </div>
+
+    <form id="form">
+      <label for="initial-price">Initial Price Of Stocks</label>
+      <input name="initial-price" id="initial-price" type="number" />
+      <label for="quantity">Quantity Of Stocks</label>
+      <input name="quantity" id="quantity" type="number" />
+      <label for="current-price">Current Price</label>
+      <input name="current-price" id="current-price" type="number" /><br />
+      <button class="btn-s" id="btn" type="submit">Submit</button>
+    </form>
+    <br /><br /><br />
+    <div class="output"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
